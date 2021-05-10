@@ -1,9 +1,9 @@
 {
-    "name": "arpage/anim-gif",
+    "name": "arpage/animgif",
     "type": "library",
     "description": "PHP class to create an animated GIF from multiple images",
     "keywords": ["gif", "animated", "creation", "encode", "PHP"],
-    "homepage": "https://github.com/lunakid/AnimGif",
+    "homepage": "https://github.com/arpage/AnimGif",
     "license": "MIT",
     "authors": [
         {
@@ -21,6 +21,8 @@
         "php": ">=7.0"
     },
     "autoload": {
-        "psr-0": { "GifCreator": "src/" }
+        "psr-0": {
+            "GifCreator": "src"
+        }
     }
 }
